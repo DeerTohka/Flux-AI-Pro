@@ -25,27 +25,33 @@ PROJECT_VERSION: "11.16.0",
   },
   
   PRESET_SIZES: {
-    "square-1k": { name: "方形 1024x1024", width: 1024, height: 1024 },
-    "square-1.5k": { name: "方形 1536x1536", width: 1536, height: 1536 },
-    "square-2k": { name: "方形 2048x2048", width: 2048, height: 2048 },
-    "square-4k": { name: "方形 4096x4096 (4K)", width: 4096, height: 4096 },
-    "portrait-9-16-hd": { name: "豎屏 9:16 HD", width: 1080, height: 1920 },
-    "portrait-9-16-2k": { name: "豎屏 9:16 2K", width: 2160, height: 3840 },
-    "portrait-9-16-4k": { name: "豎屏 9:16 4K", width: 4320, height: 7680 },
-    "landscape-16-9-hd": { name: "橫屏 16:9 HD", width: 1920, height: 1080 },
-    "landscape-16-9-2k": { name: "橫屏 16:9 2K", width: 3840, height: 2160 },
-    "landscape-16-9-4k": { name: "橫屏 16:9 4K", width: 7680, height: 4320 },
-    "instagram-square": { name: "Instagram 方形", width: 1080, height: 1080 },
+    "square-1k": { name: "方形 1K (1:1)", width: 1024, height: 1024 },
+    "square-1.5k": { name: "方形 1.5K (1:1)", width: 1536, height: 1536 },
+    "square-2k": { name: "方形 2K (1:1)", width: 2048, height: 2048 },
+    "square-4k": { name: "方形 4K (1:1)", width: 4096, height: 4096 },
+
+    "portrait-3-4": { name: "直式 3:4", width: 768, height: 1024 },
+    "portrait-4-5": { name: "直式 4:5 (社群)", width: 1080, height: 1350 },
+    "portrait-9-16-hd": { name: "直式 9:16 HD", width: 1080, height: 1920 },
+    "portrait-9-16-2k": { name: "直式 9:16 2K", width: 1440, height: 2560 },
+    "portrait-9-21": { name: "直式 9:21 (超長)", width: 1080, height: 2520 },
+    "tall-1-2": { name: "直式 1:2", width: 1024, height: 2048 },
+
+    "landscape-4-3": { name: "橫式 4:3", width: 1024, height: 768 },
+    "landscape-3-2": { name: "橫式 3:2", width: 1200, height: 800 },
+    "landscape-16-9-hd": { name: "橫式 16:9 HD", width: 1920, height: 1080 },
+    "landscape-16-9-2k": { name: "橫式 16:9 2K", width: 2560, height: 1440 },
+    "landscape-21-9": { name: "橫式 21:9 (超寬)", width: 2520, height: 1080 },
+    "banner-2-1": { name: "橫幅 2:1", width: 2048, height: 1024 },
+
+    "cinematic-21-9": { name: "電影感 21:9", width: 1920, height: 822 },
+    "cinematic-21-9-2k": { name: "電影感 21:9 2K", width: 3840, height: 1646 },
+    "ultra-4k-16-9": { name: "高解析 4K 16:9", width: 4096, height: 2304 },
+
+    "instagram-square": { name: "Instagram 方形 1:1", width: 1080, height: 1080 },
     "wallpaper-fhd": { name: "桌布 Full HD", width: 1920, height: 1080 },
     "wallpaper-2k": { name: "桌布 2K", width: 2560, height: 1440 },
-    "wallpaper-4k": { name: "桌布 4K", width: 3840, height: 2160 },
-    "portrait-3-4": { name: "豎屏 3:4", width: 768, height: 1024 },
-    "portrait-4-5": { name: "豎屏 4:5", width: 1080, height: 1350 },
-    "landscape-4-3": { name: "橫屏 4:3", width: 1024, height: 768 },
-    "landscape-3-2": { name: "橫屏 3:2", width: 1200, height: 800 },
-    "cinematic-21-9": { name: "電影感 21:9", width: 1920, height: 822 },
-    "cinematic-21-9-2k": { name: "電影感 21:9 2K", width: 3840, height: 1644 },
-    "cinematic-21-9-4k": { name: "電影感 21:9 4K", width: 7680, height: 3288 }
+    "wallpaper-4k": { name: "桌布 4K", width: 3840, height: 2160 }
   },
   
   PROVIDERS: {
